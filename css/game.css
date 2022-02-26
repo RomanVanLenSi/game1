@@ -1,0 +1,26 @@
+body {
+    background-image: url(../img/gameScene.jpg);
+}
+.game{
+    display: block;
+    position:absolute;
+    top:0;
+    left: 0;;
+}
+
+/***********************************************************
+ персонажи 
+*/
+#slon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 524px;
+    left: 390px;
+    background: url('../img/player/slon.png');
+    background-size: 100% 100%;
+}
+#slon:hover{
+    background: url('../img/player/slon_hover.png');
+    background-size: 100% 100%;
+}

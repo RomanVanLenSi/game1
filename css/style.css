@@ -1,32 +1,33 @@
 body {
-    background-image: url(menu.png);
+    background-image: url(../img/menu.png);
     background-size: cover;
     background-attachment: fixed;
 }
-#menu {
+.game-menu ul {
     padding-top: 10%;
     list-style-type: none;
     text-align: center;
 }
-#menu a {
+.game-menu ul li{
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: block;
+    height: 100px;
+}
+.game-menu ul a {
+    color: black;
     padding: 5px;
     font-weight: bold;
     font-family:'Courier New', Courier, monospace;
     text-decoration: none;
     font-size: 60px;
+    line-height: 90px;
 }
-#menu a:visited {
+.game-menu ul a:visited {
     color: black;
     
 } 
-#menu a:hover{
+.game-menu ul a:hover{
     font-size: 90px;
     color: black;
-}
-#menu li{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: block;
-    height: 100px;
 }
